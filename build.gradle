@@ -11,7 +11,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 archivesBaseName = "canvas-view"
-version = 0.6
+version = 0.7
 
 android {
     compileSdkVersion 25
