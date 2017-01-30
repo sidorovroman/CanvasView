@@ -10,8 +10,6 @@ buildscript {
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-archivesBaseName = "canvas-view"
-version = 0.7
 
 android {
     compileSdkVersion 25
@@ -20,6 +18,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
+        archivesBaseName = "canvas-view"
+        version = 0.8
     }
     sourceSets {
         main {
