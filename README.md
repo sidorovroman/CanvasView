@@ -1,3 +1,4 @@
+[![License][license-svg]][license-link]
 CanvasView
 =========
   
